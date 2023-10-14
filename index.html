@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Swiper demo</title>
+    <title>WebWoW</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- Link Swiper's CSS -->
+		<link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css" />
 
     <script type="text/javascript">var ua = window.navigator.userAgent;
@@ -24,7 +25,9 @@
             height: auto;
         }
 
-        .ie .swiper-slide {
+        .ie .swiper-
+        
+        slide {
             height: 800px;
         }
     </style>
@@ -42,20 +45,64 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="logo"></div>
+        <div class="logo">
+            <a href="#"><img src="./images/logo-webwow.png" alt="Logo"></a>
+        </div>
     </header>
     
     <div class="swiper swiper-container mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style='background-image: url(https://assets.website-files.com/6074ffba21c12f61ca07fe78/6074ffba21c12f7fc807fe86_code%402x.jpg);'>Slide 1</div>
-            <div class="swiper-slide" style='background-image: url(https://s1.1zoom.ru/big3/768/429657-Kycb.jpg)'>Slide 2</div>
-            <div class="swiper-slide" style='background-image: url(https://assets.website-files.com/6074ffba21c12f61ca07fe78/6074ffba21c12fd71407fe8c_bake%402x.jpg)'>Slide 3</div>
-            <div class="swiper-slide" style='background-image: url(https://assets.website-files.com/6074ffba21c12f61ca07fe78/6074ffba21c12f942e07fe8a_grow%402x.jpg)'>Slide 4</div>
-            <div class="swiper-slide" style='background-image: url(https://assets.website-files.com/6074ffba21c12f61ca07fe78/6074ffba21c12f771907fe88_shoot%402x.jpg)'>Slide 5</div>
-            <div class="swiper-slide" style='background-image: url(https://assets.website-files.com/6074ffba21c12f61ca07fe78/6074ffba21c12f26d607fe84_relax%402x.jpg)'>Slide 6</div>
-            <div class="swiper-slide" style='background-image: url(work-table.jpg)'>Slide 7</div>
-            <div class="swiper-slide" style='background-image: url(https://wallup.net/wp-content/uploads/2016/01/54301-depth_of_field-cat-feline-animals.jpg)'>Slide 8</div>
-            <div class="swiper-slide" style='background-image: url(https://www.zastavki.com/pictures/originals/2014/Animals___Cats_Beautiful_Scottish_cat_092436_.jpg)'>Slide 9</div>
+            <div class="swiper-slide bgDown" style='background-image: url("images/1.jpg");'>
+                <div>
+                    <h1 class="title white fadeInDown">Webdevelopment</h1>
+
+                    <div class="button fadeInDown">
+                        <a href="#" class="button-default primary">Show me more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style='background-image: url("images/2.jpg")'>
+                <div>
+                    <h1 class="title purple fadeInDown">Social Media</h1>
+
+                    <div class="button fadeInDown">
+                        <a href="#" class="button-default purple">Show me more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style='background-image: url("images/3.jpg")'>
+                <div>
+                    <h1 class="title orange fadeInDown">Google ADS</h1>
+
+                    <div class="button fadeInDown">
+                        <a href="#" class="button-default orange">Show me more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style='background-image: url("images/4.jpg")'>
+                <div>
+                    <h1 class="title blue fadeInDown">Google Reviews</h1>
+
+                    <div class="button fadeInDown">
+                        <a href="#" class="button-default blue">Show me more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide" style='background-color: #DDD'>
+                <h1 class="title pink">Over Ons</h1>
+            </div>
+            <div class="swiper-slide" style='background-color: #5CE1E6'>
+                <h1 class="title white">Contact Ons</h1>
+            </div>
+            <!-- <div class="swiper-slide" style='background-image: url(work-table.jpg)'>
+                <h1 class="title orange">Webdevelopment</h1>
+            </div>
+            <div class="swiper-slide" style='background-image: url(https://wallup.net/wp-content/uploads/2016/01/54301-depth_of_field-cat-feline-animals.jpg)'>
+                <h1 class="title blue">Webdevelopment</h1>
+            </div>
+            <div class="swiper-slide" style='background-image: url(https://www.zastavki.com/pictures/originals/2014/Animals___Cats_Beautiful_Scottish_cat_092436_.jpg)'>
+                <h1 class="title white">Webdevelopment</h1>
+            </div> -->
         </div>
         <div class="swiper-pagination"></div>
     </div>
