@@ -12,7 +12,7 @@ var el2 = document.getElementById('swiper-ie'); if (window.isIE) {
         observer: true,
         observeParents: true,
 
-        speed: 1200,
+        speed: 800,
         direction: 'vertical',
         mousewheel: { releaseOnEdges: false },
 

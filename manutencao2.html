@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>Webwow - Website Construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg=="
+        crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+            background: #d9d9d9 url('http://successagency.com/in/coming-soon-demo/blue-horizons-3/images/bg.gif') center top repeat-x;
+        }
+
+        a.webservices {
+            text-decoration: none;
+            color: #000000;
+            cursor: pointer;
+        }
+
+        #sublink {
+            font-size: 12px;
+        }
+
+        #title {
+            margin: 50px auto;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            color: #ffffff;
+        }
+
+        #content {
+            max-width: 800px;
+            margin: 0px auto;
+            background: #ffffff;
+            padding: 15px;
+            font-family: 'Open Sans', sans-serif;
+            -webkit-box-shadow: 1px 0px 50px 0px rgba(50, 50, 50, 0.75);
+            -moz-box-shadow: 1px 0px 50px 0px rgba(50, 50, 50, 0.75);
+            box-shadow: 1px 0px 50px 0px #000000;
+        }
+
+        /*  SECTIONS  */
+        .section {
+            clear: both;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        /*  COLUMN SETUP  */
+        .col {
+            display: block;
+            float: left;
+            margin: 1% 0 1% 1.6%;
+            text-align: center;
+        }
+
+        .col:first-child {
+            margin-left: 0;
+        }
+
+
+        /*  GROUPING  */
+        .group:before,
+        .group:after {
+            content: "";
+            display: table;
+        }
+
+        .group:after {
+            clear: both;
+        }
+
+        .group {
+            zoom: 1;
+            /* For IE 6/7 */
+        }
+
+
+        /*  GRID OF TWO  */
+        .span_2_of_2 {
+            width: 100%;
+        }
+
+        .span_1_of_2 {
+            width: 49.2%;
+        }
+
+        /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+        @media only screen and (max-width: 480px) {
+            .col {
+                margin: 1% 0 1% 0%;
+            }
+        }
+
+        @media only screen and (max-width: 480px) {
+            .span_2_of_2 {
+                width: 100%;
+            }
+
+            .span_1_of_2 {
+                width: 100%;
+            }
+        }
+
+        label {
+            display: inline-block;
+            width: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">
+        <h1>
+            <img src="./images/logo-webwow.png" alt="Logo Webwow" width="200">
+        </h1>
+        <h4 style="font-style: italic;">Under construction</h4>
+    </div>
+    <div id="content">
+        <div class="section group">
+            <div class="col span_1_of_2">
+                <h2>Web Services</h2>
+                <div class="section group">
+                    <div class="col span_1_of_2">
+                        <a class="webservices" href="mailto:info@webwow.nl">
+                            <div>
+                                <i class="fa-2x fa fa-envelope"></i>
+                            </div>
+                            <div>Email</div>
+                            <div id="sublink">info@webwow.nl</div>
+                        </a>
+                    </div>
+                    <div class="col span_1_of_2">
+                        <a class="webservices" href="tel:+31646175220">
+                            <div>
+                                <i class="fa-2x fa fa-phone"></i>
+                            </div>
+                            <div>Phone</div>
+                            <div id="sublink">06 46 175 220</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col span_1_of_2">
+                <h2>Release News</h2>
+                <p>Our new website will came soon!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
