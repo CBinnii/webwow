@@ -51,3 +51,22 @@
         }
     }
 }
+
+.main {
+    .banner-default {
+        height: 700px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+
+        @media screen and (max-width: 1100px) {
+            height: auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
