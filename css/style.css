@@ -20109,6 +20109,111 @@ input:active, input:focus, button:active, button:focus {
       text-align: center;
       margin-bottom: 50px; }
 
+.internal-page {
+  background-color: #E3E3E3;
+  min-height: 100vh;
+  padding: 40px;
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .internal-page .internal-page-text {
+    max-width: 990px;
+    display: block;
+    margin: 0 auto; }
+    .internal-page .internal-page-text .title {
+      margin-bottom: 50px !important; }
+    .internal-page .internal-page-text p {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #000000;
+      text-decoration: none;
+      line-height: 1.5;
+      text-align: center;
+      margin-bottom: 50px; }
+    .internal-page .internal-page-text .works {
+      margin: 0 -30px; }
+      .internal-page .internal-page-text .works .col-md-6 {
+        padding: 0 30px; }
+      .internal-page .internal-page-text .works .our-work {
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 60px; }
+        .internal-page .internal-page-text .works .our-work p {
+          margin: 0; }
+        .internal-page .internal-page-text .works .our-work .type-1 {
+          width: 100%;
+          height: 100%; }
+          .internal-page .internal-page-text .works .our-work .type-1 .image {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; }
+          .internal-page .internal-page-text .works .our-work .type-1 .text {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; }
+        .internal-page .internal-page-text .works .our-work .type-2 {
+          width: 100%;
+          height: 100%; }
+          .internal-page .internal-page-text .works .our-work .type-2 .image {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; }
+          .internal-page .internal-page-text .works .our-work .type-2 .text {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; }
+        .internal-page .internal-page-text .works .our-work .box-image {
+          width: 100%;
+          height: 100%;
+          background-position: bottom center;
+          background-size: contain;
+          background-repeat: no-repeat; }
+          @media screen and (max-width: 991px) {
+            .internal-page .internal-page-text .works .our-work .box-image {
+              width: 200px;
+              height: 200px; } }
+        .internal-page .internal-page-text .works .our-work .box-text {
+          max-width: 300px;
+          text-align: center; }
+          .internal-page .internal-page-text .works .our-work .box-text .review {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 700;
+            padding-bottom: 8px;
+            line-height: normal;
+            letter-spacing: 1.44px; }
+            @media screen and (max-width: 991px) {
+              .internal-page .internal-page-text .works .our-work .box-text .review {
+                font-size: 20px; } }
+          .internal-page .internal-page-text .works .our-work .box-text .customer {
+            font-size: 12px;
+            text-transform: capitalize;
+            font-weight: 300;
+            font-family: 'Metal', 'Roboto', Verdana, Tahoma, sans-serif; }
+            @media screen and (max-width: 991px) {
+              .internal-page .internal-page-text .works .our-work .box-text .customer {
+                font-size: 14px; } }
+
+.ti-stars {
+  margin-bottom: 8px;
+  white-space: nowrap;
+  display: block; }
+  .ti-stars .ti-star {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin: 0 !important;
+    margin-right: 1px !important;
+    background-size: contain;
+    background-repeat: no-repeat; }
+    .ti-stars .ti-star.f {
+      background-image: url("../images/icons/star.svg") !important; }
+
 html,
 body {
   position: relative;
