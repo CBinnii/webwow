@@ -60,6 +60,10 @@
         align-items: flex-start;
         justify-content: center;
 
+        @media screen and (min-width: 1900px) {
+            align-items: center;
+        }
+
         @media screen and (max-width: 1100px) {
             height: auto;
         }

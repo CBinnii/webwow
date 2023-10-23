@@ -20032,6 +20032,9 @@ input:active, input:focus, button:active, button:focus {
   display: flex;
   align-items: flex-start;
   justify-content: center; }
+  @media screen and (min-width: 1900px) {
+    .main .banner-default {
+      align-items: center; } }
   @media screen and (max-width: 1100px) {
     .main .banner-default {
       height: auto; } }
