@@ -10,6 +10,7 @@
 @import "vendor/swiper/_swiper.scss";
 @import "vendor/reset";
 
+@import "_404.scss";
 @import "_effects.scss";
 @import "_header.scss";
 @import "_footer.scss";
@@ -42,6 +43,10 @@ body {
     letter-spacing: 0em;
 	font-size: 72px;
 	margin-bottom: 80px;
+
+	&.primary {
+		text-shadow: 0.02605448em -0.02429619em 0em rgba(0, 255, 255, 1.000000), -0.02605448em 0.02429619em 0em rgba(255, 0, 0, 1.000000);
+	}
 
 	&.white {
 		color: $white;
